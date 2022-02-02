@@ -1,0 +1,92 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F100R8 -RA -BIN -LHF -DL -SSA -O11111114 -fo8 -N"C:\ARM32 Proj\F100 RTC Test\F100RTCTest.mcpar" -SP"C:\Program Files (x86)\mikroC PRO for ARM\Defs\" -SP"C:\Program Files (x86)\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\ARM32 Proj\F100 RTC Test\" -SP"C:\Program Files (x86)\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" -IP"C:\Program Files (x86)\mikroC PRO for ARM\Uses\ST M3\" -IP"C:\ARM32 Proj\F100 RTC Test\" -IP"C:\Program Files (x86)\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" "F100RTCTest.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_100.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_Conversions.emcl" "__Lib_ADC_32F100x_16ch.emcl" "__Lib_UART_123.emcl" "__Lib_dlmalloc.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32F100R8.c
+diagnostics: 22691	123	Compiled Successfully	STM32F100R8.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 814	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 583	1508	Implicit conversion of int to ptr	__Lib_dlmalloc.c
+diagnostics: 5472	123	Compiled Successfully	__Lib_dlmalloc.c
+hint: 0	1164	Variable '?FLOC____Lib_dlmalloc_internal_malloc_stats?T372' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3612	1164	Variable 'maxfp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3613	1164	Variable 'fp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3614	1164	Variable 'used' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3917	1164	Variable 'offset' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3939	1164	Variable 'flags' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3979	1164	Variable 'offset' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3996	1164	Variable 'bin' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4054	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4054	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4054	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4025	1164	Variable 'psize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4109	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4109	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4109	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4107	1164	Variable 'tn' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4066	1164	Variable 'oldsp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4070	1164	Variable 'offset' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4075	1164	Variable 'tnext' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4077	1164	Variable 'nfences' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4204	1164	Variable 'end' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4313	1164	Variable 'r' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4361	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4361	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4361	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4332	1164	Variable 'pred' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4394	1164	Variable 'newsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4447	1164	Variable 'prev' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4505	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4505	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4505	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4520	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4520	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4520	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4549	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4549	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4549	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4547	1164	Variable 'i' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4548	1164	Variable 'leastbit' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4575	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4575	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4575	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4591	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4591	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4591	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4589	1164	Variable 'i' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4590	1164	Variable 'leastbit' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4683	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4683	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4683	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4681	1164	Variable 'leftbits' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4682	1164	Variable 'leastbit' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4740	1164	Variable 'rsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4742	1164	Variable 'r' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4795	1164	Variable 'prev' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4816	1164	Variable 'tsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4853	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4853	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4853	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4914	1164	Variable 'newsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5005	1164	Variable 'pos' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4987	1164	Variable 'req' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5125	1164	Variable 'array_chunk_size' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5065	1164	Variable 'array_chunk' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5330	1164	Variable 'newp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5355	1164	Variable 'r' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5416	1164	Variable 'result' has been eliminated by optimizer	__Lib_dlmalloc.c
+diagnostics: 0	122	Compilation Started	F100RTCTest.c
+hint: 36	1163	Variable 'txt' has been declared, but not used	F100RTCTest.c
+hint: 0	1004	interrupt handler (RTCWakeUp at 0x0013)	F100RTCTest.c
+diagnostics: 303	123	Compiled Successfully	F100RTCTest.c
+diagnostics: 0	127	All files Compiled in 93 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 171   Dynamic RAM (bytes): 8017	Static RAM (bytes): 171   Dynamic RAM (bytes): 8017
+hint: 0	1144	Used ROM (bytes): 7971 (12%)  Free ROM (bytes): 57565 (88%)	Used ROM (bytes): 7971 (12%)  Free ROM (bytes): 57565 (88%)
+diagnostics: 0	125	Project Linked Successfully	F100RTCTest.mcpar
+diagnostics: 0	128	Linked in 219 ms	 
+diagnostics: 0	129	Project 'F100RTCTest.mcpar' completed: 2719 ms	 
+diagnostics: 0	103	Finished successfully: 08 ноя 2017, 17:02:32	F100RTCTest.mcpar
